@@ -51,7 +51,7 @@ const IndexPage = () => (
         <ul className="icons major">
           <li>
             <span className="icon solid fa-desktop major style1">
-              <span className="label">Television</span>
+              <span className="label">Desktop</span>
             </span>
           </li>
           <li>
@@ -181,9 +181,24 @@ const IndexPage = () => (
         </div>
       </section>
 
+      <section id="fees" className="spotlight">
+        <div className="image">
+          <img src={pic3} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Fees 
+          </h2>
+          <p>
+          Individual Sessions last for an hour and cost between £40-50. Discounted Student rates are also available.  
+          Please get in touch to discuss further.
+          </p>
+        </div>
+      </section>
+
     </section>
 
-    <section id="three" className="wrapper style3 special">
+    {/* <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Accumsan mus tortor nunc aliquet</h2>
@@ -240,12 +255,12 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Contact Us</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
             eleifend fringilla.
@@ -253,14 +268,33 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
+            <p>
+              <span className="icon solid fa-phone style1">
+                <span className="label">Desktop</span>
+              </span> 
+              07579 80165
+            </p>
           </li>
           <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
+          <p>
+            <span className="icon solid fa-at style1">
+              <span className="label">Desktop</span>
+            </span> 
+             test@example.com
+            </p>
+          </li>
+          <li>
+          <div className="address">
+            <span className="icon solid fa-map-marker style1">
+              <span className="label">Desktop</span>
+            </span> 
+            <p>
+              Partick<br/>
+              Glasgow<br/>
+              Lanarkshire<br/>
+              G11
+              </p>
+              </div>
           </li>
         </ul>
       </div>
