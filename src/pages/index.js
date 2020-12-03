@@ -69,7 +69,7 @@ const IndexPage = () => (
     </section>
 
     <section id="two" className="wrapper alt style2">
-      <section className="spotlight">
+      <section id="about" className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
         </div>
@@ -96,7 +96,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="spotlight">
+      <section id="outdoor" className="spotlight">
         <div className="image">
           <img src={pic2} alt="" />
         </div>
@@ -112,7 +112,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="spotlight">
+      <section id="why" className="spotlight">
         <div className="image">
           <img src={pic3} alt="" />
         </div>
@@ -138,7 +138,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="spotlight">
+      <section id="right" className="spotlight">
         <div className="image">
           <img src={pic3} alt="" />
         </div>
@@ -155,7 +155,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="spotlight">
+      <section id="first" className="spotlight">
         <div className="image">
           <img src={pic3} alt="" />
         </div>
