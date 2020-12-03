@@ -8,21 +8,15 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Caroline Macphie',
+  heading: 'Clear Mind Counselling',
   subHeading: 'Counselling and Psychotherapy',
   // social
   socialLinks: [
     {
-      style: 'brands',
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      style: 'solid',
+      icon: 'fa-info-circle',
+      name: 'Counselling Directory',
+      url: 'https://www.counselling-directory.org.uk/counsellors/caroline-macphie',
     },
     {
       style: 'solid',

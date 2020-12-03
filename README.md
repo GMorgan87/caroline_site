@@ -40,16 +40,16 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter spectral', // <title>
+  siteTitle: 'Caroline Macphie', // <title>
   ...
-  heading: 'Anubhav',
-  subHeading: 'Web Developer',
+  heading: 'Caroline',
+  subHeading: 'Counsellor',
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: 'fa-info-circle',
+      name: 'Counselling Directory',
+      url: 'https://www.counselling-directory.org.uk/counsellors/caroline-macphie',
     }
     ...
   ],
