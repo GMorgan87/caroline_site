@@ -85,7 +85,7 @@ const IndexPage = () => (
             <br/>
             <br/>
             As a person-centred counsellor, I work from the foundational belief that you as the client, 
-            are the expert of your own life.  I believe that everyone has their own answers and  given a supportive 
+            are the expert of your own life. I believe that everyone has their own answers and  given a supportive 
             environment to explore your concerns and emotions, you will be able to draw upon your own inner resources, 
             to find clarity and confidence. 
             <br />
@@ -106,7 +106,7 @@ const IndexPage = () => (
           </h2>
           <p>
             Walking and talking outdoors can have significant benefits and may feel like a more comfortable, 
-            less confined space for you .   Outdoor sessions usually take place at Victoria Park, 
+            less confined space for you. Outdoor sessions usually take place at Victoria Park, 
             but I would be delighted to discuss alternative options with you. 
           </p>
         </div>
@@ -122,7 +122,7 @@ const IndexPage = () => (
           </h2>
           <p>
             There is a common myth that you should only go to counselling if you are in crisis or have serious psychological 
-            difficulties.   At Clear Mind, we believe counselling can be for anyone.  
+            difficulties. At Clear Mind, we believe counselling can be for anyone.  
             <br/>
             <br/>
             Counselling allows us to gain new insight into who we are, the problems we are facing and new perspectives on how 
@@ -164,10 +164,10 @@ const IndexPage = () => (
             First Steps 
           </h2>
           <p>
-            I understand that choosing to go for counselling  can be daunting, but it can also be the first steps on an 
-            incredibly rewarding journey.  I offer a free telephone consultation, to allow you to ask me any questions 
-            you may have.  Together we can explore if counselling is the right option for you at this time.   
-            lease feel free to get in touch if you would like to find out more.  
+            I understand that choosing to go for counselling can be daunting, but it can also be the first steps on an 
+            incredibly rewarding journey. I offer a free telephone consultation, to allow you to ask me any questions 
+            you may have. Together we can explore if counselling is the right option for you at this time.   
+            Please feel free to get in touch if you would like to find out more.  
             <br/>
             If you decide to go ahead, you will be invited to attend for a first session at a mutually agreed time.   
             Together we will go over what you hope to get out of counselling and how I may be able to help you. 
