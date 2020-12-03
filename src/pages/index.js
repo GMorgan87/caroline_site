@@ -285,7 +285,7 @@ const IndexPage = () => (
           </li>
           <li>
           <div className="address">
-            <span className="icon solid fa-map-marker style1">
+            <span className="icon solid fa-location-arrow style1">
               <span className="label">Desktop</span>
             </span> 
             <p>
