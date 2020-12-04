@@ -40,9 +40,9 @@ const IndexPage = () => (
           <p>
             Finding clarity, can be an elusive challenge in today’s world, particularly when feeling overwhelmed by
             demands and expectations from ourselves and others. At Clear Mind Counselling, we believe that taking time
-            out to find the space to think, and talk things through, can make all the difference. 
-            <br />
-            <br />
+            out to find the space to think, and talk things through, can make all the difference.
+            <br/>
+            <br/>
             We offer counselling and psychotherapy services to individuals of all ages, online via video link.
             With the option of outdoor sessions available, we aim to make therapy as accessible and comfortable,
             as possible.
