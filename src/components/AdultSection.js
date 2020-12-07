@@ -17,8 +17,8 @@ const q = () => {
                     Finding clarity, can be an elusive challenge in today’s world, particularly when feeling overwhelmed by
                     demands and expectations from ourselves and others. At Clear Mind Counselling, we believe that taking time
                     out to find the space to think, and talk things through, can make all the difference.
-                    <br/>
-                    <br/>
+                </p>
+                <p>
                     We offer counselling and psychotherapy services to individuals of all ages, online via video link.
                     With the option of outdoor sessions available, we aim to make therapy as accessible and comfortable,
                     as possible.
@@ -58,14 +58,14 @@ const q = () => {
                     I have also undertaken advanced training in Emotion-Focused Therapy allowing me to work in an evidence-based 
                     manner, adapting my skills to best match what you need from counselling.   
                     I can offer a safe, warm and calming space for you to explore what is going on for you.  
-                    <br/>
-                    <br/>
+                </p>
+                <p>
                     As a person-centred counsellor, I work from the foundational belief that you as the client, 
                     are the expert of your own life. I believe that everyone has their own answers and given a supportive 
                     environment to explore your concerns and emotions, you will be able to draw upon your own inner resources, 
                     to find clarity and confidence. 
-                    <br />
-                    <br />
+                </p>
+                <p>
                     Having worked for many years in the mental health field as a registered Occupational Therapist, 
                     I offer a holistic approach allowing you the time and space to find a way forward, at your own pace.
                 </p>
@@ -99,12 +99,12 @@ const q = () => {
                 <p>
                     There is a common myth that you should only go to counselling if you are in crisis or have serious psychological 
                     difficulties. At Clear Mind, we believe counselling can be for anyone.  
-                    <br/>
-                    <br/>
+                </p>
+                <p>
                     Counselling allows us to gain new insight into who we are, the problems we are facing and new perspectives on how 
                     to overcome our issues and move forward.   
-                    <br/>
-                    <br/>
+                </p>
+                <p>
                     As humans, it’s normal for us all to face challenges in life, to feel confused, anxious, overwhelmed or stuck.   
                     But, why talk to a stranger about the issues we are experiencing?  Why not just talk to a friend or family member? 
                     Talking to a therapist is different from talking to someone who knows you. Therapists, are trained to listen in a 
@@ -144,12 +144,15 @@ const q = () => {
                     incredibly rewarding journey. I offer a free telephone consultation, to allow you to ask me any questions 
                     you may have. Together we can explore if counselling is the right option for you at this time.   
                     Please feel free to get in touch if you would like to find out more.  
-                    <br/>
+                </p>
+                <p>
                     If you decide to go ahead, you will be invited to attend for a first session at a mutually agreed time.   
                     Together we will go over what you hope to get out of counselling and how I may be able to help you. 
-                    <br/>
+                </p>
+                <p>
                     After this initial appointment, you would attend, generally speaking, for an hour once a week.
-                    <br/>
+                </p>
+                <p>
                     The length of counselling varies from person to person and we would regularly review our progress.  
                     There is no obligation to continue, or if you decide once you start that it is not working for you, 
                     and the contract can be terminated at any time.
