@@ -19,7 +19,7 @@ const q = () => {
                     out to find the space to think, and talk things through, can make all the difference.
                     <br/>
                     <br/>
-                    We offer counselling and psychotherapy services to individuals of all ages, online via video link.
+                    We offer counselling and psychotherapy services to individuals of all ages, online via video link.
                     With the option of outdoor sessions available, we aim to make therapy as accessible and comfortable,
                     as possible.
                 </p>
@@ -61,7 +61,7 @@ const q = () => {
                     <br/>
                     <br/>
                     As a person-centred counsellor, I work from the foundational belief that you as the client, 
-                    are the expert of your own life. I believe that everyone has their own answers and  given a supportive 
+                    are the expert of your own life. I believe that everyone has their own answers and given a supportive 
                     environment to explore your concerns and emotions, you will be able to draw upon your own inner resources, 
                     to find clarity and confidence. 
                     <br />
@@ -107,8 +107,8 @@ const q = () => {
                     <br/>
                     As humans, it’s normal for us all to face challenges in life, to feel confused, anxious, overwhelmed or stuck.   
                     But, why talk to a stranger about the issues we are experiencing?  Why not just talk to a friend or family member? 
-                    Talking to a therapist is different from talking to someone who knows you.   Therapists, are trained to listen in a 
-                    non-judgemental way.   We won’t react with surprise, disgust with what you tell me or how your feeling.  Counselling 
+                    Talking to a therapist is different from talking to someone who knows you. Therapists, are trained to listen in a 
+                    non-judgemental way. We won’t react with surprise, disgust with what you tell me or how your feeling. Counselling 
                     is about feeling safe, heard, understood and valued. 
                 </p>
                 </div>
@@ -124,7 +124,7 @@ const q = () => {
                 </h2>
                 <p>
                     Therapy can help people overcome issues by giving them insights into how their minds work, 
-                    what they want, and why they think and act the way they do.  Often counselling helps people 
+                    what they want, and why they think and act the way they do. Often counselling helps people 
                     to feel more empowered and hopeful about the future. If you are not feeling yourself lately, 
                     therapy is one of the best options to find a way forward.
                 </p>
