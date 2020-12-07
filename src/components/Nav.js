@@ -28,10 +28,10 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="#outdoor">Outdoor Sessions</Link>
               </li>
               <li>
-                <Link to="#why">Why Choose Councelling</Link>
+                <Link to="#why">Why Choose Counselling</Link>
               </li>
               <li>
-                <Link to="#right">Is Councelling Right For Me</Link>
+                <Link to="#right">Is Counselling Right For Me</Link>
               </li>
               <li>
                 <Link to="#first">First Steps</Link>
