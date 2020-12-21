@@ -35,7 +35,8 @@ const IndexPage = () => (
       </Scroll>
     </section>
 
-    <AdultSection/>
+    {/* <AdultSection/> */}
+    <ChildSection/>
 
     <section id="cta" className="wrapper style4">
       <div className="inner">

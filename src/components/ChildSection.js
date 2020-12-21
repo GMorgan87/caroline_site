@@ -15,17 +15,13 @@ const q = () => {
                     Welcome to Clear Mind Counselling for Kids
                 </h2>
                 <p>
-                    Finding clarity, can be an elusive challenge in today’s world, particularly when feeling overwhelmed by
-                    demands and expectations from ourselves and others. At Clear Mind Counselling, we believe that taking time
-                    out to find the space to think, and talk things through, can make all the difference.
-                    <br/>
-                    <br/>
-                    We offer counselling and psychotherapy services to individuals of all ages, online via video link.
-                    With the option of outdoor sessions available, we aim to make therapy as accessible and comfortable,
-                    as possible.
+                    At Clear Mind, we have extensive experience working therapeutically with children &
+                    young people and young adults, aged from 8 to 18 years old.  We work across a variety
+                    of settings; including Primary and Secondary Schools, as well as online counselling sessions
+                    for young clients throughout the UK. 
                 </p>
                 </header>
-                <ul className="icons major">
+                {/* <ul className="icons major">
                 <li>
                     <span className="icon solid fa-desktop major style1">
                     <span className="label">Desktop</span>
@@ -41,7 +37,7 @@ const q = () => {
                     <span className="label">at</span>
                     </span>
                 </li>
-                </ul>
+                </ul> */}
             </div>
             </section>
 
@@ -52,23 +48,18 @@ const q = () => {
                 </div>
                 <div className="content">
                 <h2>
-                    About me
+                    Why is Counselling Important for Young Clients?
                 </h2>
                 <p>
-                    I am qualified to Masters level in Counselling and Psychotherapy from the University of Strathclyde.
-                    I have also undertaken advanced training in Emotion-Focused Therapy allowing me to work in an evidence-based 
-                    manner, adapting my skills to best match what you need from counselling.   
-                    I can offer a safe, warm and calming space for you to explore what is going on for you.  
+                    We all communicate how we're feeling through our behaviour - children & young people are no exception.
+                    A child or young person who presents as being angry, anxious or who self-harms is communicating dis-stress
+                    of some kind.  Counselling helps young clients gradually explore what's happening in their emotional worlds
+                    and the effect it's having on their everyday lives.  
                     <br/>
                     <br/>
-                    As a person-centred counsellor, I work from the foundational belief that you as the client, 
-                    are the expert of your own life. I believe that everyone has their own answers and  given a supportive 
-                    environment to explore your concerns and emotions, you will be able to draw upon your own inner resources, 
-                    to find clarity and confidence. 
-                    <br />
-                    <br />
-                    Having worked for many years in the mental health field as a registered Occupational Therapist, 
-                    I offer a holistic approach allowing you the time and space to find a way forward, at your own pace.
+                    For children & young people, we offer safe, confidential and non-judgemental therapeutic sessions where they
+                    can freely express and explore their feelings.  A gentle, non-invasive way of working with young people allows
+                    for a trusting relationship to develop between the young client and therapist.  
                 </p>
                 </div>
             </section>
@@ -78,14 +69,17 @@ const q = () => {
                 <img src={pic2} alt="" />
                 </div>
                 <div className="content">
-                <h2>
-                    Outdoor Sessions
-                </h2>
-                <p>
-                    Walking and talking outdoors can have significant benefits and may feel like a more comfortable, 
-                    less confined space for you. Outdoor sessions usually take place at Victoria Park, 
-                    but I would be delighted to discuss alternative options with you. 
-                </p>
+                <p>Is Your Child:</p>
+                <ul>
+                    <li>Worried, anxious or depressed and needs support</li>
+                    <li>Struggling with anger</li>
+                    <li>Suffering from low self-esteem</li>
+                    <li>Having challenges at school or at home</li>
+                    <li>Having friendship issues or bullying</li>
+                    <li>Having behavioural problems</li>
+                    <li>Learning to adapt to a new family dynamic</li>
+                    <li>ADHD or Autistic traits impacting on daily life</li>
+                </ul>
                 </div>
             </section>
 
@@ -95,22 +89,17 @@ const q = () => {
                 </div>
                 <div className="content">
                 <h2>
-                    Why choose Counselling?
+                    Counselling for Children 
                 </h2>
                 <p>
-                    There is a common myth that you should only go to counselling if you are in crisis or have serious psychological 
-                    difficulties. At Clear Mind, we believe counselling can be for anyone.  
+                    Counselling children involves helping the child develop a positive attitude to life, how to recognise
+                    personal strengths and how to express feelings and emotions. It does not involve making decisions for
+                    the child, or imposing beliefs on them. 
                     <br/>
                     <br/>
-                    Counselling allows us to gain new insight into who we are, the problems we are facing and new perspectives on how 
-                    to overcome our issues and move forward.   
-                    <br/>
-                    <br/>
-                    As humans, it’s normal for us all to face challenges in life, to feel confused, anxious, overwhelmed or stuck.   
-                    But, why talk to a stranger about the issues we are experiencing?  Why not just talk to a friend or family member? 
-                    Talking to a therapist is different from talking to someone who knows you.   Therapists, are trained to listen in a 
-                    non-judgemental way.   We won’t react with surprise, disgust with what you tell me or how your feeling.  Counselling 
-                    is about feeling safe, heard, understood and valued. 
+                    Developing a safe, compassionate therapeutic relationship with your child is at the heart of our work
+                    with children. We bring kindness, honesty and a sense of fun to sessions and believe play and laughter
+                    help the healing process.
                 </p>
                 </div>
             </section>
@@ -121,13 +110,14 @@ const q = () => {
                 </div>
                 <div className="content">
                 <h2>
-                    Is Counselling right for me?
+                    Counselling for Young People
                 </h2>
                 <p>
-                    Therapy can help people overcome issues by giving them insights into how their minds work, 
-                    what they want, and why they think and act the way they do.  Often counselling helps people 
-                    to feel more empowered and hopeful about the future. If you are not feeling yourself lately, 
-                    therapy is one of the best options to find a way forward.
+                    The transitions from child to teenager, and teenager to adult, are complex and can be fraught with
+                    conflict for the entire family. At Clear Mind, we can work with teenagers to navigate these transitions,
+                    empowering them to step into a new stage, in a trusted environment. With younger clients, we use creative 
+                    methods, such as art or online games, which makes it easier to communicate fears and worries, and 
+                    encourage them to express their emotions more freely.
                 </p>
                 </div>
             </section>
@@ -138,22 +128,12 @@ const q = () => {
                 </div>
                 <div className="content">
                 <h2>
-                    First Steps 
+                    Parent/Carer Involvement 
                 </h2>
                 <p>
-                    I understand that choosing to go for counselling can be daunting, but it can also be the first steps on an 
-                    incredibly rewarding journey. I offer a free telephone consultation, to allow you to ask me any questions 
-                    you may have. Together we can explore if counselling is the right option for you at this time.   
-                    Please feel free to get in touch if you would like to find out more.  
-                    <br/>
-                    If you decide to go ahead, you will be invited to attend for a first session at a mutually agreed time.   
-                    Together we will go over what you hope to get out of counselling and how I may be able to help you. 
-                    <br/>
-                    After this initial appointment, you would attend, generally speaking, for an hour once a week.
-                    <br/>
-                    The length of counselling varies from person to person and we would regularly review our progress.  
-                    There is no obligation to continue, or if you decide once you start that it is not working for you, 
-                    and the contract can be terminated at any time.
+                    When working with a child or a young person, their parent or carer will be consulted particularly at
+                    the initial stages, and then supported throughout the process of therapy, in a way that respects
+                    confidential and therapeutic space for the child or young person.  
                 </p>
                 </div>
             </section>
@@ -167,8 +147,7 @@ const q = () => {
                     Fees 
                 </h2>
                 <p>
-                Individual Sessions last for an hour and cost between £40-50. Discounted Student rates are also available.  
-                Please get in touch to discuss further.
+                    Sessions are 50 minutes in length and cost £45.
                 </p>
                 </div>
             </section>
