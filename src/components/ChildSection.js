@@ -1,7 +1,8 @@
 import React from 'react'
 import pic1 from '../assets/images/Caroline.png';
 import pic2 from '../assets/images/outdoor.jpg';
-import pic3 from '../assets/images/counselling.jpg';
+import pic3 from '../assets/images/why.jpg';
+import pic4 from '../assets/images/for-me.jpg';
 import pic5 from '../assets/images/talk.jpg';
 
 const q = () => {
@@ -116,7 +117,7 @@ const q = () => {
 
             <section id="right" className="spotlight">
                 <div className="image">
-                <img src={pic3} alt="" />
+                <img src={pic4} alt="" />
                 </div>
                 <div className="content">
                 <h2>

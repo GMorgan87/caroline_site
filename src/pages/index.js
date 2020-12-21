@@ -50,17 +50,17 @@ const IndexPage = () => (
           <li>
             <p>
               <span className="icon solid fa-phone style1">
-                <span className="label">Desktop</span>
-              </span> 
-              07579 80165
+                <span className="label">Phone</span>
+              </span>
+              <a href='tel:00447579 80165' rel="noreferrer">07579 80165</a>
             </p>
           </li>
           <li>
           <p>
             <span className="icon solid fa-at style1">
-              <span className="label">Desktop</span>
+              <span className="label">Email</span>
             </span> 
-             caroline@clearmindcounselling.co.uk
+            <a href='mailto:caroline@clearmindcounselling.co.uk' rel="noreferrer">caroline@clearmindcounselling.co.uk</a>
             </p>
           </li>
           <li>
