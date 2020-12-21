@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Caroline Macphie', // <title>
+  siteTitle: 'Clear Mind Counselling', // <title>
   manifestName: 'Spectral',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -22,7 +22,7 @@ module.exports = {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:test@example.com',
+      url: 'mailto:caroline@clearmindcounselling.co.uk',
     },
   ],
 };
