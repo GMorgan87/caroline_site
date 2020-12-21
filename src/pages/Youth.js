@@ -1,27 +1,28 @@
 import React from 'react';
-import { Link } from "gatsby";
-import AdultSection from '../components/AdultSection'
+import ChildSection from '../components/ChildSection'
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import config from '../../config';
 
 
-const IndexPage = () => {
+const Youth = () => {
+
 
  return <Layout>
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-      </div>
-      <div>
         <ul className="actions special">
           <li>
-          <Link to="/Youth/">Youth</Link>
+            <Scroll type="id" element="one">
+              {/* <a href="/#" className="button primary">
+                Adults
+              </a> */}
+            </Scroll>
+          </li>
+          <li>
             {/* <Scroll type="id" element="one">
-              <a href="Kids" className="button primary" onClick={handleKids}>
-                Kids
-              </a>
             </Scroll> */}
           </li>
         </ul>
@@ -33,7 +34,7 @@ const IndexPage = () => {
       </Scroll>
     </section>
 
-    <AdultSection/>
+    <ChildSection/>
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
@@ -80,4 +81,4 @@ const IndexPage = () => {
   </Layout>
 };
 
-export default IndexPage;
+export default Youth;
