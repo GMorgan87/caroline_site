@@ -17,12 +17,7 @@ const IndexPage = () => {
       <div>
         <ul className="actions special">
           <li>
-          <Link to="/Youth/">Youth</Link>
-            {/* <Scroll type="id" element="one">
-              <a href="Kids" className="button primary" onClick={handleKids}>
-                Kids
-              </a>
-            </Scroll> */}
+          <Link className="button primary" to="/Youth/">Children & Young People</Link>
           </li>
         </ul>
       </div>

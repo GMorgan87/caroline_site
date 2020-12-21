@@ -12,7 +12,7 @@ const Youth = () => {
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <p>{config.subHeading} for Children and Young People</p>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">

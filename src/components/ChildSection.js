@@ -1,6 +1,6 @@
 import React from 'react'
-import pic1 from '../assets/images/Caroline.png';
-import pic2 from '../assets/images/outdoor.jpg';
+import pic1 from '../assets/images/youth.jpg';
+import pic2 from '../assets/images/your-child.jpg';
 import pic3 from '../assets/images/why.jpg';
 import pic4 from '../assets/images/for-me.jpg';
 import pic5 from '../assets/images/talk.jpg';
@@ -12,7 +12,7 @@ const q = () => {
             <div className="inner">
                 <header className="major">
                 <h2>
-                    Welcome to Clear Mind Counselling for Kids
+                    Welcome to Clear Mind Counselling
                 </h2>
                 <p>
                     At Clear Mind, we have extensive experience working therapeutically with children &
