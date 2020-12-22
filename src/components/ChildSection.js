@@ -1,9 +1,10 @@
 import React from 'react'
-import pic1 from '../assets/images/youth.jpg';
-import pic2 from '../assets/images/your-child.jpg';
-import pic3 from '../assets/images/why.jpg';
-import pic4 from '../assets/images/for-me.jpg';
+import pic1 from '../assets/images/Why_Counselling.jpg';
+import pic2 from '../assets/images/Is_Your_Child.jpg';
+import pic3 from '../assets/images/CH_Counselling.jpg';
+import pic4 from '../assets/images/YP_Counselling.jpg';
 import pic5 from '../assets/images/talk.jpg';
+import pic6 from '../assets/images/Fees_Pic.jpg';
 
 const q = () => {
   return (
@@ -21,23 +22,6 @@ const q = () => {
                     for young clients throughout the UK. 
                 </p>
                 </header>
-                {/* <ul className="icons major">
-                <li>
-                    <span className="icon solid fa-desktop major style1">
-                    <span className="label">Desktop</span>
-                    </span>
-                </li>
-                <li>
-                    <span className="icon fa-comments major style2">
-                    <span className="label">Ipsum</span>
-                    </span>
-                </li>
-                <li>
-                    <span className="icon solid fa-leaf major style3">
-                    <span className="label">at</span>
-                    </span>
-                </li>
-                </ul> */}
             </div>
             </section>
 
@@ -140,7 +124,7 @@ const q = () => {
 
             <section id="fees" className="spotlight">
                 <div className="image">
-                <img src={pic3} alt="" />
+                <img src={pic6} alt="" />
                 </div>
                 <div className="content">
                 <h2>
