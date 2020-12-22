@@ -17,7 +17,10 @@ const IndexPage = () => {
       <div>
         <ul className="actions special">
           <li>
-          <Link className="button primary" to="/Youth/">Children & Young People</Link>
+            <Link className="button primary" to="#one">Adult Sessions</Link>
+          </li>
+          <li>
+            <Link className="button primary" to="/Youth/">Children & Young People</Link>
           </li>
         </ul>
       </div>

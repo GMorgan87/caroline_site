@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby";
 import ChildSection from '../components/ChildSection'
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -12,14 +13,13 @@ const Youth = () => {
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p>{config.subHeading} for Children and Young People</p>
+        <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
-              {/* <a href="/#" className="button primary">
-                Adults
-              </a> */}
-            </Scroll>
+              <Link className="button primary" to="/">Adult Sessions</Link>
+          </li>
+          <li>
+            <Link className="button primary" to="#one">Children & Young People</Link>
           </li>
           <li>
             {/* <Scroll type="id" element="one">
