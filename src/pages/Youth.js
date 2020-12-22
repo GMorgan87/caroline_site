@@ -9,7 +9,7 @@ import config from '../../config';
 const Youth = () => {
 
 
- return <Layout>
+ return <Layout main={false}>
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>

@@ -8,7 +8,7 @@ import config from '../../config';
 
 const IndexPage = () => {
 
- return <Layout>
+ return <Layout main={true}>
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>

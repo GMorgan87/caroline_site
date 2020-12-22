@@ -1369,7 +1369,7 @@
 
 /* Page Wrapper + Menu */
 
-	#page-wrapper {
+	#page-wrapper, #page-wrapper-youth{
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		opacity: 1;
 		padding-top: 3em;
@@ -1457,7 +1457,7 @@
 	}
 
 	.is-menu-visible {
-		#page-wrapper {
+		#page-wrapper, #page-wrapper-youth{
 			opacity: 0.35;
 
 			&:before {
@@ -1907,6 +1907,15 @@
 			padding-top: 0;
 		}
 
+		#page-wrapper-youth {
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Youth-BG.jpg")'));
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding-top: 0;
+		}
+
 		#footer {
 			background-color: darken(transparentize(_palette(bg), 0.1), 8);
 		}
@@ -1914,7 +1923,7 @@
 
 	body.is-mobile {
 		&.landing {
-			#page-wrapper {
+			#page-wrapper, #page-wrapper-youth {
 				background: none;
 			}
 

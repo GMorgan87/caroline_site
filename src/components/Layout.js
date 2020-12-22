@@ -46,8 +46,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Clear Mind Counselling' },
+                { name: 'keywords', content: 'counselling, psycotherapy' },
               ]}
             >
               <html lang="en" />
@@ -59,7 +59,7 @@ class Layout extends Component {
                   : 'landing main-body'
               }
             >
-              <div id="page-wrapper">
+              <div id={this.props.main? "page-wrapper" : "page-wrapper-youth"}>
                 <SideBar fullMenu={fullMenu} />
                 {children}
                 <Footer />
