@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
+import ContactUs from './ContactUs';
 
 class Layout extends Component {
   constructor(props) {
@@ -62,6 +63,7 @@ class Layout extends Component {
               <div id={this.props.main? "page-wrapper" : "page-wrapper-youth"}>
                 <SideBar fullMenu={fullMenu} />
                 {children}
+                <ContactUs/>
                 <Footer />
               </div>
             </div>
