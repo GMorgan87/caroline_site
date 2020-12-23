@@ -24,7 +24,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               <li>
                 <Link className="nav-youth" to="/Youth"><strong>Children & Young People</strong></Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="#about">About Me</Link>
               </li>
               <li>
@@ -41,7 +41,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </li>
               <li>
                 <Link to="#fees">Fees</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="#cta">Contact Us</Link>
               </li>
