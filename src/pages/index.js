@@ -34,10 +34,9 @@ const IndexPage = () => {
     <AdultSection/>
 
     <section id="cta" className="wrapper style4">
-      <div className="inner">
+      <div className="inner contact">
         <header>
           <h2>Contact Us</h2>
-
           <ul className="actions stacked">
           <li>
             <p>
@@ -56,17 +55,15 @@ const IndexPage = () => {
             </p>
           </li>
           <li>
-          <div className="address">
-            <span className="icon solid fa-location-arrow style1">
-              <span className="label">Desktop</span>
-            </span> 
-            <p>
-              Partick<br/>
-              Glasgow<br/>
-              Lanarkshire<br/>
-              G11
-              </p>
-              </div>
+            <div className="address">
+              <span className="icon solid fa-location-arrow style1">
+                <span className="label">Desktop</span>
+              </span> 
+              <p>Partick</p>
+              <p>Glasgow</p>
+              <p>Lanarkshire</p>
+              <p>G11</p>
+            </div>
           </li>
           </ul>
 

@@ -712,7 +712,6 @@
 
 		&.special {
 			@include vendor('justify-content', 'center');
-			width: 100%;
 			margin-left: 0;
 
 			li {
@@ -728,7 +727,7 @@
 
 			li {
 				padding: (_size(element-margin) * 0.5) 0 0 0;
-
+				width: 100%;
 				&:first-child {
 					padding-top: 0;
 				}
@@ -1731,8 +1730,9 @@
 
 			header {
 				@include vendor('order', '1');
-				padding-right: 3em;
-				width: 70%;
+				// padding-right: 3em;
+				margin: 0 auto;
+				width: 80%;
 
 				p {
 					color: inherit;
@@ -1741,7 +1741,7 @@
 
 			.actions {
 				@include vendor('order', '2');
-				width: 30%;
+				width: 100%;
 			}
 
 			@include breakpoint('<=medium') {
@@ -1945,4 +1945,15 @@
 
 	.address {
 		display: flex;
+		width: 100%;
+		justify-content: center;
+		display: block;
+	}
+
+	.address p {
+		margin: 0;
+	}
+
+	.contact {
+		text-align: center;
 	}
