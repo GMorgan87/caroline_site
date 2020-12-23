@@ -1957,3 +1957,20 @@
 	.contact {
 		text-align: center;
 	}
+
+	.qual-logos ul{
+		background-color: white;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		list-style: none;
+		padding: 1em 0;
+	}
+
+	.qual-logos li {
+		padding: 0;
+	}
+
+	.qual-logos img {
+		height: 4em;
+	}
