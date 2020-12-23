@@ -54,7 +54,7 @@ const q = () => {
                 </div>
                 <div className="content">
                 <p>Is Your Child:</p>
-                <ul>
+                <ul className="child-list">
                     <li>Worried, anxious or depressed and needs support</li>
                     <li>Struggling with anger</li>
                     <li>Suffering from low self-esteem</li>
