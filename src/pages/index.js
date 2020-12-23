@@ -37,12 +37,8 @@ const IndexPage = () => {
       <div className="inner">
         <header>
           <h2>Contact Us</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
+
+          <ul className="actions stacked">
           <li>
             <p>
               <span className="icon solid fa-phone style1">
@@ -72,7 +68,10 @@ const IndexPage = () => {
               </p>
               </div>
           </li>
-        </ul>
+          </ul>
+
+        </header>
+        
       </div>
     </section>
   </Layout>

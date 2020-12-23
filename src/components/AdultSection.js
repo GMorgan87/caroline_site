@@ -1,10 +1,10 @@
 import React from 'react'
 import pic1 from '../assets/images/Caroline.png';
 import pic2 from '../assets/images/outdoor.jpg';
-import pic3 from '../assets/images/why.jpg';
-import pic4 from '../assets/images/for-me.jpg';
-import pic5 from '../assets/images/talk.jpg';
-import pic6 from '../assets/images/counselling.jpg';
+import pic3 from '../assets/images/Why.jpg';
+import pic4 from '../assets/images/for_me.jpg';
+import pic5 from '../assets/images/begin.jpg';
+import pic6 from '../assets/images/Fees.jpg';
 
 const q = () => {
   return (
@@ -171,8 +171,8 @@ const q = () => {
                     Fees 
                 </h2>
                 <p>
-                Individual Sessions last for an hour and cost between £40-50. Discounted Student rates are also available.  
-                Please get in touch to discuss further.
+                    Individual Sessions last for an hour and cost between £40-50. Discounted Student rates are also available.  
+                    Please get in touch to discuss further.
                 </p>
                 </div>
             </section>
