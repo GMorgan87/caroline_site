@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Clear Mind Counselling', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'Clear Mind Counselling',
+  manifestShortName: 'CM Therapy', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',

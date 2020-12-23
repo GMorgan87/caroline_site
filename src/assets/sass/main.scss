@@ -1959,7 +1959,7 @@
 	}
 
 	.qual-logos ul{
-		background-color: white;
+		// background-color: white;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -1972,5 +1972,6 @@
 	}
 
 	.qual-logos img {
-		height: 4em;
+		height: 4.5em;
+		border: 5px solid white
 	}
