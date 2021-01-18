@@ -12,7 +12,7 @@ const ContactUs = () => {
                 <span className="label">Phone</span>
               </span>
               <p>
-                <a href='tel:00447579 80165' rel="noreferrer">07579 80165</a>
+                <a href='tel:00447579 801465' rel="noreferrer">07579 801465</a>
               </p>
           </li>
           <li>

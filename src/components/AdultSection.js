@@ -11,122 +11,49 @@ import logo2 from '../assets/images/HCPC_Logo.jpg'
 const q = () => {
   return (
         <div>
-        <section id="one" className="wrapper style1 special">
-            <div className="inner">
-                <header className="major">
-                <h2>
-                    Welcome to Clear Mind Counselling 
-                </h2>
-                <p>
-                    Finding clarity, can be an elusive challenge in today’s world, particularly when feeling overwhelmed by
-                    demands and expectations from ourselves and others. At Clear Mind Counselling, we believe that taking time
-                    out to find the space to think, and talk things through, can make all the difference.
-                </p>
-                <p>
-                    We offer counselling and psychotherapy services to individuals of all ages, online via video link.
-                    With the option of outdoor sessions available, we aim to make therapy as accessible and comfortable,
-                    as possible.
-                </p>
-                </header>
-                <ul className="icons major">
-                <li>
-                    <span className="icon solid fa-desktop major style1">
-                    <span className="label">Desktop</span>
-                    </span>
-                </li>
-                <li>
-                    <span className="icon fa-comments major style2">
-                    <span className="label">Ipsum</span>
-                    </span>
-                </li>
-                <li>
-                    <span className="icon solid fa-leaf major style3">
-                    <span className="label">at</span>
-                    </span>
-                </li>
-                </ul>
-            </div>
-            </section>
-
             <section id="two" className="wrapper alt style2">
-            <section id="about" className="spotlight">
-                <div className="image">
-                <img src={pic1} alt="" />
-                </div>
-                <div className="content">
-                <h2>
-                    About me
-                </h2>
-                <p>
-                    I am qualified to Masters level in Counselling and Psychotherapy from the University of Strathclyde.
-                    I have also undertaken advanced training in Emotion-Focused Therapy allowing me to work in an evidence-based 
-                    manner, adapting my skills to best match what you need from counselling.   
-                    I can offer a safe, warm and calming space for you to explore what is going on for you.  
-                </p>
-                <p>
-                    As a person-centred counsellor, I work from the foundational belief that you as the client, 
-                    are the expert of your own life. I believe that everyone has their own answers and given a supportive 
-                    environment to explore your concerns and emotions, you will be able to draw upon your own inner resources, 
-                    to find clarity and confidence. 
-                </p>
-                <p>
-                    Having worked for many years in the mental health field as a registered Occupational Therapist, 
-                    I offer a holistic approach allowing you the time and space to find a way forward, at your own pace.
-                </p>
-                    <div className="qual-logos">
-                        <ul>
-                            <li>
-                                <img src={logo1} alt="" />
-                            </li>
-                            <li>
-                                <img src={logo2} alt="" />
-                            </li>
-                        </ul>
+            
+                <section id="outdoor" className="spotlight">
+                    <div className="image">
+                    <img src={pic2} alt="" />
                     </div>
-                </div>
-            </section>
+                    <div className="content">
+                    <h2>
+                        Outdoor Sessions
+                    </h2>
+                    <p>
+                        Walking and talking outdoors can have significant benefits and may feel like a more comfortable, 
+                        less confined space for you. Outdoor sessions usually take place at Victoria Park, 
+                        but I would be delighted to discuss alternative options with you. 
+                    </p>
+                    </div>
+                </section>
 
-            <section id="outdoor" className="spotlight">
-                <div className="image">
-                <img src={pic2} alt="" />
-                </div>
-                <div className="content">
-                <h2>
-                    Outdoor Sessions
-                </h2>
-                <p>
-                    Walking and talking outdoors can have significant benefits and may feel like a more comfortable, 
-                    less confined space for you. Outdoor sessions usually take place at Victoria Park, 
-                    but I would be delighted to discuss alternative options with you. 
-                </p>
-                </div>
-            </section>
-
-            <section id="why" className="spotlight">
-                <div className="image">
-                <img src={pic3} alt="" />
-                </div>
-                <div className="content">
-                <h2>
-                    Why choose Counselling?
-                </h2>
-                <p>
-                    There is a common myth that you should only go to counselling if you are in crisis or have serious psychological 
-                    difficulties. At Clear Mind, we believe counselling can be for anyone.  
-                </p>
-                <p>
-                    Counselling allows us to gain new insight into who we are, the problems we are facing and new perspectives on how 
-                    to overcome our issues and move forward.   
-                </p>
-                <p>
-                    As humans, it’s normal for us all to face challenges in life, to feel confused, anxious, overwhelmed or stuck.   
-                    But, why talk to a stranger about the issues we are experiencing?  Why not just talk to a friend or family member? 
-                    Talking to a therapist is different from talking to someone who knows you. Therapists, are trained to listen in a 
-                    non-judgemental way. We won’t react with surprise, disgust with what you tell me or how your feeling. Counselling 
-                    is about feeling safe, heard, understood and valued. 
-                </p>
-                </div>
-            </section>
+                <section id="why" className="spotlight">
+                    <div className="image">
+                    <img src={pic3} alt="" />
+                    </div>
+                    <div className="content">
+                    <h2>
+                        Why choose Counselling?
+                    </h2>
+                    <p>
+                        There is a common myth that you should only go to counselling if you are in crisis or have serious psychological 
+                        difficulties. At Clear Mind, we believe counselling can be for anyone.  
+                    </p>
+                    <p>
+                        Counselling allows us to gain new insight into who we are, the problems we are facing and new perspectives on how 
+                        to overcome our issues and move forward.   
+                    </p>
+                    <p>
+                        As humans, it’s normal for us all to face challenges in life, to feel confused, anxious, overwhelmed or stuck.   
+                        But, why talk to a stranger about the issues we are experiencing?  Why not just talk to a friend or family member? 
+                        Talking to a therapist is different from talking to someone who knows you. Therapists, are trained to listen in a 
+                        non-judgemental way. I won’t react with surprise or disapproval with what you tell me or how you are feeling. Counselling is about
+                        feeling safe, heard, understood and valued.
+                    </p>
+                    </div>
+                </section>
 
             <section id="right" className="spotlight">
                 <div className="image">
@@ -169,7 +96,7 @@ const q = () => {
                 <p>
                     The length of counselling varies from person to person and we would regularly review our progress.  
                     There is no obligation to continue, or if you decide once you start that it is not working for you, 
-                    and the contract can be terminated at any time.
+                    and the therapy can be terminated at any time.
                 </p>
                 </div>
             </section>
