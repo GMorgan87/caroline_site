@@ -1080,7 +1080,7 @@
 		.experience {
 			@include padding(2em, 4em);
 			@include vendor('order', '2');
-			max-width: 60em;
+			// max-width: 48em;
 			width: 100%;
 		}
 

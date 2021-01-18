@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "gatsby";
 import AboutMe from '../components/AboutMe'
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -13,16 +12,6 @@ const IndexPage = () => {
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-      </div>
-      <div>
-        {/* <ul className="actions special">
-          <li>
-            <Link className="button primary" to="#one">Adult Sessions</Link>
-          </li>
-          <li>
-            <Link className="button primary" to="/Youth/">Children & Young People</Link>
-          </li>
-        </ul> */}
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">

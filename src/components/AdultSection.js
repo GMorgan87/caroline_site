@@ -1,12 +1,9 @@
 import React from 'react'
-import pic1 from '../assets/images/Caroline.png';
 import pic2 from '../assets/images/outdoor.jpg';
 import pic3 from '../assets/images/why.jpg';
 import pic4 from '../assets/images/for_me.jpg';
 import pic5 from '../assets/images/begin.jpg';
 import pic6 from '../assets/images/Fees.jpg';
-import logo1 from '../assets/images/BACP_Logo.png'
-import logo2 from '../assets/images/HCPC_Logo.jpg'
 
 const q = () => {
   return (
