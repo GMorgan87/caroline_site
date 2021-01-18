@@ -1928,6 +1928,32 @@
 	}
 
 	@media only screen and (max-width: 600px) {
+		body.landing, .main-body.landing {
+			#page-wrapper {
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Main_Background.jpg")'));
+				background-attachment: initial;
+				background-position: top center;
+				background-repeat: repeat;
+				background-size: auto 100vh;
+				padding-top: 0;
+			}
+	
+			#page-wrapper-youth {
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Youth-BG.jpg")'));
+				background-attachment: initial;
+				background-position: top center;
+				background-repeat: repeat;
+				background-size: auto 100vh;
+				padding-top: 0;
+			}
+	
+			#footer {
+				background-color: darken(transparentize(_palette(bg), 0.1), 8);
+			}
+		}
+	}
+
+	
 	body {
 		&.landing {
 			#page-wrapper, #page-wrapper-youth {
@@ -1951,8 +1977,8 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
-		}
 	}
+	
 
 	.address {
 		display: flex;
