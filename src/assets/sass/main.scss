@@ -2036,7 +2036,15 @@
 	}
 
 	.link-btns ul {
+		text-align: center
 	}
 
 	.link-btns li {
+		padding: 5vh 2vw !important;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.link-btns li {
+			padding: 2vh 2vw !important;
+		}
 	}
