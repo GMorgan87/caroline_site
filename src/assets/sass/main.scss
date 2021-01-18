@@ -1935,10 +1935,10 @@
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Main_Background.jpg")'));
 				background-attachment: scroll;
-				// -webkit-background-size: cover;
-				// -moz-background-size: cover;
-				// -o-background-size: cover;
-				background-size: 100vh auto;
+				-webkit-background-size: contain;
+				-moz-background-size: contain;
+				-o-background-size: contain;
+				background-size: contain;
 				background-position:top center;
 				background-repeat: repeat;
 				text-align: center;
