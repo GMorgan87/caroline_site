@@ -4,9 +4,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import config from '../../config';
 
-
 const Adult = () => {
-
 
  return <Layout main={true}>
     <section id="banner">

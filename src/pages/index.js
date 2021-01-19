@@ -3,7 +3,7 @@ import AboutMe from '../components/AboutMe'
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import config from '../../config';
-
+import ContactUs from '../components/ContactUs';
 
 const IndexPage = () => {
 
@@ -20,6 +20,7 @@ const IndexPage = () => {
       </Scroll>
     </section>
     <AboutMe/>
+    <ContactUs/>
   </Layout>
 };
 

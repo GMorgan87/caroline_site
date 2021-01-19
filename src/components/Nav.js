@@ -22,32 +22,14 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">About Me</Link>
               </li>
               <li>
-                <Link className="nav-youth" to="/Youth"><strong>Children & Young People</strong></Link>
-              </li>
-              <li>
                 <Link className="nav-adult" to="/Adult"><strong>Adult Sessions</strong></Link>
               </li>
               <li>
-                <Link to="#cta">Contact Us</Link>
-              </li>
-              {/* <li>
-                <Link to="#about">About Me</Link>
+                <Link className="nav-youth" to="/Youth"><strong>Children & Young People</strong></Link>
               </li>
               <li>
-                <Link to="#outdoor">Outdoor Sessions</Link>
+                <Link to="/#cta">Contact Us</Link>
               </li>
-              <li>
-                <Link to="#why">Why Choose Counselling</Link>
-              </li>
-              <li>
-                <Link to="#right">Is Counselling Right For Me</Link>
-              </li>
-              <li>
-                <Link to="#first">First Steps</Link>
-              </li>
-              <li>
-                <Link to="#fees">Fees</Link>
-              </li> */}
             </ul>
             <a
               className="close"
