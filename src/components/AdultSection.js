@@ -1,5 +1,5 @@
 import React from 'react'
-import pic2 from '../assets/images/outdoor.jpg';
+// import pic2 from '../assets/images/outdoor.jpg';
 import pic3 from '../assets/images/why.jpg';
 import pic4 from '../assets/images/for_me.jpg';
 import pic5 from '../assets/images/begin.jpg';
@@ -10,7 +10,7 @@ const q = () => {
         <div>
             <section id="two" className="wrapper alt style2">
             
-                <section id="outdoor" className="spotlight">
+                {/* <section id="outdoor" className="spotlight">
                     <div className="image">
                     <img src={pic2} alt="" />
                     </div>
@@ -24,7 +24,7 @@ const q = () => {
                         but I would be delighted to discuss alternative options with you. 
                     </p>
                     </div>
-                </section>
+                </section> */}
 
                 <section id="why" className="spotlight">
                     <div className="image">

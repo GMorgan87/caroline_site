@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Clear Mind Counselling',
-  subHeading: 'Clear Mind Counselling: Counselling & Psychotherapy For All Ages',
+  subHeading: 'Counselling & Psychotherapy For All Ages',
   // social
   socialLinks: [
     {

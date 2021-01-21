@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "gatsby";
 import pic1 from '../assets/images/Caroline.png';
 import logo1 from '../assets/images/BACP_Logo.png'
 import logo2 from '../assets/images/HCPC_Logo.jpg'
 
-const q = () => {
+
+const Q = () => {
+
+    const [more, setMore] = useState(false)
+
   return (
     <div>
         <section id="one" className="wrapper style1 special">
@@ -45,6 +49,19 @@ const q = () => {
         </section>
 
         <section id="two" className="wrapper alt style2">
+
+
+            <div className="link-btns">
+                <ul className="actions special">
+                    <li>
+                        <Link className="button primary" to="/Adult">Adult Sessions</Link>
+                    </li>
+                    <li>
+                        <Link className="button primary" to="/Youth">Children & Young People</Link>
+                    </li>
+                </ul>
+            </div>
+
             <section id="about" className="spotlight">
                 <div className="image">
                 <img src={pic1} alt="" />
@@ -69,6 +86,48 @@ const q = () => {
                     Having worked for many years in the mental health field as a registered Occupational Therapist, 
                     I offer a holistic approach allowing you the time and space to find a way forward, at your own pace.
                 </p>
+
+                <h2>
+                    Experience
+                </h2>
+                <p>
+                    I have extensive experience working in child, adolescent and adult mental health services. 
+                    Since 2007 I have worked within a range of community mental health teams, child and family services, 
+                    student support teams, NHS occupational health settings, as well as school-based counselling services.  
+                </p>
+
+                {more?
+                <div id="more" >
+                
+                    <p>2007-2010 - Community Mental Health Practitioner (Adults) - Turning Point Scotland</p>
+                    <p>2010-2011 - Homeless Shelter Team Leader - Bethany Trust</p>
+                    <p>2011-2012 - Homeless Prevention Team - Aberdeen City Council & Shelter Scotland</p>
+                    <p>2013-2015 - Children & Young Persons Wellbeing Practitioner - Action For Children</p>
+                    <p>2015-2017 - Community Mental Health Team (Adults) - Penumbra Scotland</p>
+                    <p>2017 - Onwards - I have had the privilege of working as a Counsellor with the following 
+                        Organisations & Charities:</p>
+                    <ul className="u-list">
+                        <li>Stepping Stones - Adult Counselling Service</li>
+                        <li>Strathclyde Student Services - Students & University Staff</li>
+                        <li>NHS Occupational Health Department - Counselling Service for NHS Staff</li>
+                        <li>Place2Be - Primary School-aged Children</li>
+                        <li>The Spark - Primary School-aged Children</li>
+                        <li>Mable Therapy - Online Counselling for Children & Young People</li>
+                        <li>Teentalk Scotland - School-based Counselling for Young People</li>
+                    </ul>
+                            
+                    <p>
+                        I also currently work as a Mental Health Mentor with University and College students throughout Scotland. 
+                        If you are a student interested in finding out about mentoring. Please get in touch
+                    </p>
+
+                </div>
+                :
+                <></>
+                }
+                
+                <button onClick={()=>setMore(!more)}>{more? 'Show Less':'Learn More'}</button>
+
                 </div>
             </section>
 
@@ -82,42 +141,6 @@ const q = () => {
                             </li>
                         </ul>
                     </div>
-
-            <section id="experience" className="spotlight">
-                <div className="experience">
-                <h2>
-                    Experience
-                </h2>
-                <p>
-                    I have extensive experience working in child, adolescent and adult mental health services. 
-                    Since 2007 I have worked within a range of community mental health teams, child and family services, 
-                    student support teams, NHS occupational health settings, as well as school-based counselling services.  
-                </p>
-                
-                <p>2007-2010 - Community Mental Health Practitioner (Adults) - Turning Point Scotland</p>
-                <p>2010-2011 - Homeless Shelter Team Leader - Bethany Trust</p>
-                <p>2011-2012 - Homeless Prevention Team - Aberdeen City Coucil & Shelter Scotland</p>
-                <p>2013-2015 - Children & Young Persons Wellbeing Practitioner - Action For Children</p>
-                <p>2015-2017 - Community Mental Health Team (Adults) - Penumbra Scotland</p>
-                <p>2017 - Onwards - I have had the privilege of working as a Counsellor with the following 
-                    Organisations & Charities:</p>
-                <ul className="u-list">
-                    <li>Stepping Stones - Adult Counselling Service</li>
-                    <li>Strathclyde Student Services - Students & University Staff</li>
-                    <li>NHS Occupational Health Department - Counselling Service for NHS Staff</li>
-                    <li>Place2Be - Primary School-aged Children</li>
-                    <li>The Spark - Primary School-aged Children</li>
-                    <li>Mable Therapy - Online Counselling for Children & Young People</li>
-                    <li>Teentalk Scotland - School-based Counselling for Young People</li>
-                </ul>
-                        
-                <p>
-                    I also currently work as a Mental Health Mentor with University and College students throughout Scotland. 
-                    If you are a student interested in finding out about mentoring, please get in touch
-                </p>
-
-                </div>
-            </section>
 
             <div className="link-btns">
                 <ul className="actions special">
@@ -136,4 +159,4 @@ const q = () => {
 )
 }
 
-export default q
+export default Q

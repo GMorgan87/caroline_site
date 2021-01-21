@@ -18,8 +18,11 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </a>
           <div id="menu">
             <ul>
+            <li>
+                <Link to="/"><strong>Home</strong></Link>
+              </li>
               <li>
-                <Link to="/">About Me</Link>
+                <Link to="/#about"><strong>About Me</strong></Link>
               </li>
               <li>
                 <Link className="nav-adult" to="/Adult"><strong>Adult Sessions</strong></Link>
@@ -28,7 +31,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link className="nav-youth" to="/Youth"><strong>Children & Young People</strong></Link>
               </li>
               <li>
-                <Link to="/#cta">Contact Us</Link>
+                <Link to="/#cta"><strong>Contact Us</strong></Link>
               </li>
             </ul>
             <a
