@@ -91,9 +91,9 @@ const q = () => {
                     After this initial appointment, you would attend, generally speaking, for an hour once a week.
                 </p>
                 <p>
-                    The length of counselling varies from person to person and we would regularly review our progress.  
+                    The length of counselling varies from person to person and we would regularly review our progress. 
                     There is no obligation to continue, or if you decide once you start that it is not working for you, 
-                    and the therapy can be terminated at any time.
+                    the therapy can be terminated at any time.
                 </p>
                 </div>
             </section>
